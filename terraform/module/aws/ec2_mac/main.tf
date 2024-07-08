@@ -41,7 +41,7 @@ resource "aws_security_group" "ec2_security_group" {
 
 module "ec2_vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "5.1.1"
+  version = "5.9.0"
 
   name                 = "ec2_vpc"
   cidr                 = var.vpc_cidr
