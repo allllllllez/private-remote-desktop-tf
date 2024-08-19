@@ -10,7 +10,7 @@
 # VPC
 module "ec2_remote_instance_vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "5.8.1"
+  version = "5.13.0"
 
   name                 = "${var.prefix_name}-${var.env}"
   cidr                 = var.vpc_cidr
